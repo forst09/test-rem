@@ -20,7 +20,6 @@
 }
 
 html {
-  /* font-size: 10px; */
   font-size: 3.125vw;
 }
 
@@ -3095,6 +3094,10 @@ svg {
 .scroll {
   padding: 0 1.6rem;
   overflow-x: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
 }
 
 .scroll::-webkit-scrollbar {
