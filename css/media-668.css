@@ -1,0 +1,822 @@
+@charset "UTF-8";
+/*НАЧАЛО АДАПТИВА 668*/
+@media (min-width: 668px) {
+  /*НАЧАЛО ОБЩИХ СТИЛЕЙ 668*/
+  html {
+    font-size: 1.497005988vw;
+  }
+  h1 {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  section:nth-last-of-type(1) {
+    margin-bottom: 3.2rem;
+  }
+  .wrapper {
+    padding: 0 4.4rem;
+  }
+  .back {
+    margin-bottom: 3.2rem;
+  }
+  .tab-underline {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .input-wrapper {
+    max-width: 40.2rem;
+  }
+  .input-search {
+    padding-left: 4.2rem;
+  }
+  .form-input__label {
+    width: 2rem;
+    height: 2rem;
+  }
+  .pin {
+    display: none;
+  }
+  /*КОНТЕНТНЫЕ СТИЛИ 668*/
+  .content-style h2,
+.content-style h3,
+.content-style h4,
+.content-style h5,
+.content-style h6 {
+    margin-top: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+  .content-style h2 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+  .content-style h3 {
+    font-size: 2.1rem;
+    line-height: 3rem;
+  }
+  .content-style h4 {
+    font-size: 2rem;
+  }
+  .content-style h5 {
+    font-size: 1.8rem;
+  }
+  .content-style ul,
+.content-style ol {
+    margin-top: 1.6rem;
+  }
+  .content-style ul li ul,
+.content-style ol li ol {
+    margin-top: 0.8rem;
+  }
+  .content-style p {
+    margin-top: 1.6rem;
+  }
+  .scroll-table {
+    margin: 1.6rem auto;
+  }
+  .wrapper-iframe {
+    width: 38.8rem;
+    height: 20.2rem;
+  }
+  .content-img {
+    margin: 1.6rem auto;
+    width: 38.8rem;
+    height: 26.6rem;
+  }
+  /*КОНЕЦ КОНТЕНТНЫЕ СТИЛИ 668*/
+  /*НАЧАЛО СТИЛЕЙ ШАПКИ 668*/
+  .header-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .header__logo {
+    width: 3.6rem;
+    height: 3.2rem;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    position: static;
+    -webkit-transform: unset;
+    -ms-transform: unset;
+    transform: unset;
+    margin-left: -19.4rem;
+  }
+  .header__search {
+    width: calc(100% - 8.8rem);
+  }
+  .place {
+    color: var(--white);
+    position: relative;
+    max-width: 23.4rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+  .place__icon {
+    margin-right: 0.8rem;
+  }
+  .place__text {
+    font-size: 1.4rem;
+    display: none;
+    font-weight: 700;
+  }
+  .place__address {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  .place__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 17.9rem;
+  }
+  .header__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .header-right {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .header__icons-item--personal {
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .header__icons-item--personal svg {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .header__icons-item--personal svg path {
+    stroke: var(--white);
+  }
+  /*КОНЕЦ СТИЛЕЙ ШАПКИ 668*/
+  /*НАЧАЛО СТИЛЕЙ БЕЛОЙ ШАПКИ 668*/
+  .header-white .header__logo {
+    width: 9.7rem;
+  }
+  .header-white .input-wrapper {
+    height: 2.4rem;
+  }
+  /*НАЧАЛО СТИЛЕЙ ФИКСИРОВАННОЙ ШАПКИ 668*/
+  .header-fixed {
+    height: 6.3rem;
+    padding: 1.2rem 0;
+  }
+  .header-fixed .header-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .header-fixed .header__logo {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 3.6rem;
+    height: 3.2rem;
+    margin-left: -17rem;
+  }
+  .header-fixed .header__search {
+    width: calc(100% - 8.8rem);
+    left: 4.4rem;
+  }
+  .header-fixed .input-submit {
+    padding: 0.6rem 1.6rem;
+  }
+  .header-fixed .place__info {
+    position: static;
+    display: block;
+    max-width: 19.5rem;
+    width: 100%;
+  }
+  .header-fixed .place {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    padding: 0;
+    max-width: 23.4rem;
+  }
+  .header-fixed .place__address {
+    height: 2rem;
+    -ms-line-clamp: 1;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+  }
+  .header-fixed .header-right {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+  .header-fixed .header__icons-item + .header__icons-item {
+    margin-left: 1.6rem;
+  }
+  /*КОНЕЦ СТИЛЕЙ ФИКСИРОВАННОЙ ШАПКИ 668*/
+  /* ФИКС ШАПКА ДЛЯ ТОЧЕК 668*/
+  .header-point-fix {
+    height: 7.2rem;
+  }
+  .header-point__info {
+    max-width: 35rem;
+    text-align: center;
+    margin-left: 4rem;
+  }
+  .header-fixed.header-point-fix.show {
+    height: 12rem;
+  }
+  .header-point__info-address {
+    margin-top: 0.8rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+  }
+  /* КОНЕЦ ФИКС ШАПКА ДЛЯ ТОЧЕК 668*/
+  /*КОНЕЦ СТИЛЕЙ БЕЛОЙ ШАПКИ 668*/
+  /*НАЧАЛО СТИЛЕЙ ФУТЕРА 668*/
+  .footer {
+    margin-top: 3.2rem;
+  }
+  .footer-socials__info {
+    margin-top: 2.4rem;
+  }
+  .footer__sosials-feedback {
+    margin: 0;
+    padding: 0.8rem 0;
+  }
+  .footer__socials-copy {
+    margin-top: 2.4rem;
+  }
+  /*КОНЕЦ СТИЛЕЙ ФУТЕРА 668*/
+  /*НАЧАЛО СТИЛЕЙ ТАББАРА 668*/
+  .tabbar {
+    -webkit-box-shadow: 0px 10px 50px rgba(226, 236, 249, 0.6);
+    box-shadow: 0px 10px 50px rgba(226, 236, 249, 0.6);
+    display: none;
+  }
+  .tabbar__item {
+    width: 6.7rem;
+    height: 5.6rem;
+  }
+  .tabbar__item svg {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+  .item-quantity__span {
+    width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.2rem;
+  }
+  /*КОНЕЦ СТИЛЕЙ ТАББАРА 668*/
+  /*ВСПЛЫВАШКИ 668*/
+  .block-swipe__filters {
+    height: 64%;
+  }
+  .block-swipe__links {
+    padding-bottom: 2.4rem;
+  }
+  .block-swipe-modal {
+    height: 100vh;
+  }
+  .modal-title {
+    margin-bottom: 2.4rem;
+  }
+  .modal-close {
+    top: 1.6rem;
+    right: 4.4rem;
+  }
+  .modal-close svg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  /*КОНЕЦ ВСПЛЫВАШЕК 668*/
+  .text {
+    margin-top: 3.2rem;
+    max-width: 39.9rem;
+  }
+  /*ВСПЛЫВАШКА ВЫБОР ГОРОДА 668*/
+  .choice-city__text,
+.choice-city__address {
+    max-width: 32.8rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .choice-city__text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .choice-city__address {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 0.2rem;
+  }
+  .choice-city__buttons {
+    margin-top: 1.8rem;
+  }
+  /*КОНЕЦ ВСПЛЫВАШКА ВЫБОР ГОРОДА 668*/
+  /*ВСПЛЫВАШКА ОБРАТНОЙ СВЯЗИ 668*/
+  .block-swipe-feedback {
+    min-height: 89vh;
+  }
+  /*КОНЕЦ ВСПЛЫВАШКА ОБРАТНОЙ СВЯЗИ 668*/
+  /*ШАПКА ДЛЯ ТОЧЕК 668*/
+  .header-point {
+    min-height: 18rem;
+  }
+  .point-img {
+    height: 18rem;
+  }
+  /*КОНЕЦ ШАПКА ДЛЯ ТОЧЕК 668*/
+  /*ШАПКА ДЛЯ СТРАНИЦЫ СЕТИ 668*/
+  .header-network {
+    padding-top: 1.6rem;
+  }
+  .header-network__logo {
+    width: 7.5rem;
+    height: 7.5rem;
+    padding: 0.8rem;
+  }
+  .bg__img {
+    width: 211rem;
+    height: 50rem;
+    -webkit-transform: translateX(-20%);
+    -ms-transform: translateX(-20%);
+    transform: translateX(-20%);
+    top: -20rem;
+  }
+  .bg__img svg {
+    height: 100%;
+  }
+  /*КОНЕЦ ШАПКА ДЛЯ СТРАНИЦЫ СЕТИ 668*/
+  .modal__buttons-shadow {
+    margin-top: 2.4rem;
+  }
+  .pin-save,
+.feedback-pin,
+.pin-repeat-order,
+.pin-cart-not-empty {
+    display: block;
+    bottom: 0rem;
+  }
+  .cart-pin {
+    display: block;
+    bottom: -7.6rem;
+  }
+  .section-white {
+    padding-top: 4rem;
+  }
+  .title-medium {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin: 1.6rem 0;
+    font-weight: 700;
+  }
+  .scroll {
+    padding: 0 4.4rem;
+  }
+  .cart__container {
+    margin-top: 2.4rem;
+  }
+  .arrow-top {
+    right: 4.4rem;
+  }
+  /*КОНЕЦ ОБЩИХ СТИЛЕЙ 668*/
+  /*НАЧАЛО СТИЛЕЙ ГЛАВНОЙ СТРАНИЦЫ 668*/
+  .view-btn {
+    margin-bottom: 2rem;
+  }
+  .view-btn__item {
+    padding: 1rem 2.4rem;
+  }
+  .view-btn__item svg {
+    margin-right: 1.6rem;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .view-btn__item.active {
+    -webkit-box-shadow: 0px 10px 50px rgba(226, 236, 249, 0.6);
+    box-shadow: 0px 10px 50px rgba(226, 236, 249, 0.6);
+  }
+  .tiles {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 2rem;
+    grid-column-gap: 1.2rem;
+  }
+  .tiles__item-img-wrapper {
+    position: relative;
+    max-height: 13.2rem;
+  }
+  .tiles__item-img {
+    height: 13.2rem;
+  }
+  .tiles__item-heart {
+    width: 4rem;
+    height: 4rem;
+  }
+  .tiles__item-heart svg {
+    width: 2.2rem;
+    height: 2rem;
+  }
+  .tiles__item-name {
+    margin-top: 0.4rem;
+  }
+  .tiles__item-logo {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .tiles__item-name-text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  /*КОНЕЦ СТИЛЕЙ ГЛАВНОЙ СТРАНИЦЫ 668*/
+  /*ВСПЛЫВАШКА СПАСИБО ЗА ОБРАЩЕНИЕ 668*/
+  .modal-title--icon {
+    margin-bottom: 3.2rem;
+  }
+  .icon-modal {
+    margin-bottom: 3.2rem;
+  }
+  /*КОНЕЦ ВСПЛЫВАШКА СПАСИБО ЗА ОБРАЩЕНИЕ 668*/
+  /*######################################################################################################################################*/
+  /*АВТОРИЗАЦИЯ*/
+  /*НАЧАЛО СТИЛЕЙ АВТОРИЗАЦИЯ 668*/
+  .login__wrapper {
+    grid-template-columns: repeat(1, 40.2rem);
+  }
+  .btn-text--big {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  /*КОНЕЦ СТИЛЕЙ АВТОРИЗАЦИЯ 668*/
+  /*######################################################################################################################################*/
+  /*КОНТАКТЫ 668*/
+  /*НАЧАЛО СТИЛЕЙ КОНТАКТЫ 668*/
+  .info__title,
+.info__text {
+    line-height: 2.2rem;
+  }
+  .feedback__form {
+    max-width: 43.4rem;
+    padding: 0 1.6rem;
+  }
+  /*КОНЕЦ СТИЛЕЙ КОНТАКТЫ 668*/
+  /*###############################################################################################################################*/
+  /*МОДАЛКА ЗАКАЗ СОЗДАН 668*/
+  /*КОНЕЦ МОДАЛКА ЗАКАЗ СОЗДАН 668*/
+  /*###############################################################################################################################*/
+  /*СТРАНИЦА ТОЧКИ 668*/
+  .point-logo {
+    width: 10.4rem;
+    height: 10.4rem;
+    top: -15.5rem;
+    padding: 1.6rem;
+  }
+  .point__title-wrapper {
+    margin-bottom: 1.6rem;
+  }
+  .point__info-road svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .info__phone--hide {
+    width: auto;
+    height: auto;
+    padding: 0.8rem;
+  }
+  .info__phone--hide svg {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+  .info__phone--hide span {
+    display: inline-block;
+    margin-left: 0.8rem;
+  }
+  .point__info-address {
+    margin-top: 1.6rem;
+    padding: 1.6rem 0;
+  }
+  .point__info {
+    padding-top: 1.6rem;
+    margin: 0;
+  }
+  .preferential__desc {
+    line-height: 2rem;
+  }
+  .filters-light {
+    margin-top: 3.2rem;
+    padding: 0 4.4rem;
+  }
+  .cards__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cart-pin__text {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  .cart-pin__total {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .point__address-fav-btn {
+    padding-top: 1.6rem;
+  }
+  .fav__long {
+    padding: 1rem 0;
+  }
+  .fav__long svg {
+    width: 2.2rem;
+    height: 2rem;
+  }
+  /*ПУСТАЯ ТОЧКА*/
+  .empty__img {
+    width: 12rem;
+    height: 23.8rem;
+  }
+  .point__address-fav-more {
+    margin-top: 1.6rem;
+    padding: 1.6rem 0;
+  }
+  /*КОНЕЦ СТРАНИЦА ТОЧКИ 668*/
+  /*###############################################################################################################################*/
+  /*ЛК ДАШБОРД 668*/
+  .tiles-icon__item {
+    padding: 1.2rem 1.6rem;
+  }
+  /*КОНЕЦ ЛК ДАШБОРД 668*/
+  /*########################################################################################################################################*/
+  /*ЛИЧНЫЕ ДАННЫЕ 668*/
+  .confirmation {
+    max-width: 40.2rem;
+  }
+  /*КОНЕЦ ЛИЧНЫЕ ДАННЫЕ 668*/
+  /*########################################################################################################################################*/
+  /*СТРАНИЦА СЕТИ 668*/
+  .more {
+    padding: 0.9rem 0;
+  }
+  .more span {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .network__info {
+    margin-top: 2.4rem;
+  }
+  .title-count__title {
+    font-size: 1.8rem;
+  }
+  .title-count__value {
+    margin-top: 0.8rem;
+  }
+  /*КОНЕЦ СТРАНИЦА СЕТИ 668*/
+  /*########################################################################################################################################*/
+  /*ОПИСАНИЕ СЕТИ 668*/
+  .gallery__item {
+    width: 16.5rem;
+    height: 11.4rem;
+  }
+  .documents-item__desc {
+    line-height: 2.2rem;
+  }
+  /*КОНЕЦ ОПИСАНИЕ СЕТИ 668*/
+  /*###############################################################################################################################*/
+  /*КОРЗИНА 668*/
+  .cart__total-pin {
+    padding: 1.5rem 4.4rem;
+  }
+  .cart__total-pin .btn-orange {
+    max-width: 20.6rem;
+  }
+  .cart__title-img {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 2.4rem;
+  }
+  .cart__title-name {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+  .cart__address {
+    margin-top: 2.4rem;
+  }
+  .cart__item {
+    padding: 1.4rem 0.8rem;
+  }
+  .cart__item::after {
+    bottom: 0;
+  }
+  .cart__item:nth-of-type(1) {
+    padding-top: 1.4rem;
+  }
+  .cart__img {
+    width: 9.3rem;
+    height: 9.3rem;
+  }
+  .cart__item + .cart__item {
+    margin: 0;
+  }
+  .cart__more {
+    margin-top: 2.4rem;
+  }
+  /*ПУСТАЯ КОРЗИНА*/
+  .cart__empty {
+    margin-top: 2.4rem;
+    padding-bottom: 4.5rem;
+  }
+  /*КОРЗИНА 668*/
+  /*###############################################################################################################################*/
+  /*СТРАНИЦА ЗАКАЗА 668*/
+  .order__info {
+    margin-top: 1.6rem;
+  }
+  .order__info-item {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .order__info-item + .order__info-item {
+    margin-top: 0.4rem;
+  }
+  .order__status {
+    margin-top: 1.6rem;
+  }
+  .order__point-info {
+    margin-bottom: 3.2rem;
+  }
+  .order__items {
+    margin-top: 2.4rem;
+  }
+  .order__item .cart__img {
+    width: 6.9rem;
+    height: 6.4rem;
+  }
+  .order__item .card__name {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    min-height: unset;
+  }
+  .order__item .card__volume {
+    font-weight: 500;
+  }
+  .order__item .card__cost-new {
+    font-size: 1.4rem;
+  }
+  .order__item .card__cost-old {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .total {
+    margin-top: 2.4rem;
+  }
+  /*КОНЕЦ СТРАНИЦА ЗАКАЗА 668*/
+  /*###############################################################################################################################*/
+  /*404 668*/
+  .not-found {
+    height: calc(100vh - 14rem);
+  }
+  .not-found .btn-orange {
+    margin-top: 1.6rem;
+  }
+  .not-found__img {
+    width: 34.3rem;
+    height: 29.9rem;
+    margin-bottom: 1.6rem;
+  }
+  /*КОНЕЦ 404 668*/
+  /*###############################################################################################################################*/
+  /*СТРАНИЦА РЕЗУЛЬТАТОВ ПОИСКА 668*/
+  .search .card {
+    width: 14rem;
+  }
+  .search .card__labels {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .search .label + .label {
+    margin-top: 0;
+    margin-left: 0.25rem;
+  }
+  .search .card__cost-new {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .address-small {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .swiper-search {
+    margin-top: 1.2rem;
+  }
+  .point__name-time-road {
+    margin-top: 0.8rem;
+  }
+  /*КОНЕЦ СТРАНИЦА РЕЗУЛЬТАТОВ ПОИСКА 668*/
+  /*###############################################################################################################################*/
+  /*ЛК - ЗАКАЗЫ 668*/
+  .order-list__item-number .order-list__item-number-svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  .order-list__item-number span {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .card__cost-new {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  .order-list__item-date {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .order-list__item-goods {
+    margin-top: 1.2rem;
+  }
+  .order-list__item-goods .swiper-wrapper {
+    -webkit-column-gap: 0.8rem;
+    -moz-column-gap: 0.8rem;
+    column-gap: 0.8rem;
+  }
+  .orer-list__item-good {
+    width: 6.9rem;
+    height: 6.4rem;
+  }
+  .order-list__item::before {
+    width: calc(100vw - 8.8rem);
+    left: 4.4rem;
+  }
+  .order-list__item:nth-last-of-type(1)::after {
+    width: calc(100vw - 8.8rem);
+    left: 4.4rem;
+  }
+  /*КОНЕЦ ЛК - ЗАКАЗЫ 668*/
+  /*###############################################################################################################################*/
+  /*БЫСТРЫЙ ПРОСМОТР 668*/
+  .block-swipe-quick-view {
+    padding-top: 2.4rem;
+  }
+  .block-swipe-quick-view .btn-orange span {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .quick-view__main {
+    margin-bottom: 1.6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .quick-view__swiper {
+    max-width: 18rem;
+    margin-right: 1.6rem;
+  }
+  .quick-view__img {
+    width: 17.4rem;
+    height: 17.4rem;
+    border-radius: 2.4rem;
+  }
+  .quick-view-pagination {
+    margin-top: 0.3rem;
+  }
+  .quick-view__info {
+    margin-left: auto;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  .quick-view__info .quick-view__item {
+    padding: 0;
+    border: unset;
+  }
+  .quick-view__item:nth-child(1) {
+    border-top: 1px solid var(--gray-extralight);
+  }
+  .quick-view__info-list {
+    padding: 0;
+  }
+  /*КОНЕЦ БЫСТРЫЙ ПРОСМОТР 668*/
+  /*###############################################################################################################################*/
+  /*ОФОРМЛЕНИЕ ЗАКАЗА 668*/
+  /*КОНЕЦ ОФОРМЛЕНИЕ ЗАКАЗА 668*/
+}
+/*КОНЕЦ АДАПТИВА 668*/
