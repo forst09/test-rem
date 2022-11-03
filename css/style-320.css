@@ -4422,6 +4422,10 @@ svg {
   margin-top: 2.4rem;
   padding: 0 1.6rem;
   overflow-x: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
 }
 
 .filters-light::-webkit-scrollbar {
